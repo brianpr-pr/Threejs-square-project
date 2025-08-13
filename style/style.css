@@ -1,0 +1,20 @@
+#container-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    #left-arrow{
+
+    }
+    
+    .webgl{
+    align-self: center;
+    margin-top: 222px;
+    
+    }
+    #right-arrow{
+    
+    }
+}
