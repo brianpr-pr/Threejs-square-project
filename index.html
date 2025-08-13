@@ -7,13 +7,52 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+    <div id="container-controls">
+        <div id="square-control">
+            <h2>Cuadrado</h2>
+            <div class="back-white">
+                <img id="square-left" src="./left.png">
+                <img id="square-right" src="./right.png">
+                <img id="square-up" src="./up.png">
+                <img id="square-down" src="./down.png">
+                <img id="square-minus" src="./minus.png">
+                <img id="square-plus" src="./plus.jpg">
+            </div>
+        </div>
+        <div id="light-control">
+            <h2>Luz</h2>
+            <div class="back-white">
+                <img id="light-left" src="./left.png">
+                <img id="light-right" src="./right.png">
+                <img id="light-up" src="./up.png">
+                <img id="light-down" src="./down.png">
+                <img id="light-minus" src="./minus.png">
+                <img id="light-plus" src="./plus.jpg">
+            </div>
+        </div>
+        <div id="camera-control">
+            <h2>Camera</h2>
+            <img id="camera-left" src="./left.png">
+                <img id="camera-right" src="./right.png">
+                <img id="camera-up" src="./up.png">
+                <img id="camera-down" src="./down.png">
+                <img id="camera-minus" src="./minus.png">
+                <img id="camera-plus" src="./plus.jpg">
+                <img id="camera-rotate-left" src="./rotate-left.png">
+                <img id="camera-rotate-right" src="./rotate-right.png">
+                <img id="camera-rotate-up" src="./rotate-up.png">
+                <img id="camera-rotate-down" src="./rotate-down.png">
+        </div>
+    </div>
+
+
     <div id="container-content">
-        <div id="left-arrow">
-            <img id="left-arrow-image" src="./../static/left-arrow.png" type="image/png">
+        <div class="arrows" id="left-arrow">
+            <img id="left-arrow-image" src="./left-arrow.png">
         </div>
         <canvas class="webgl"></canvas>
-        <div id="right-arrow">
-            <img id="right-arrow-image" src="./../static/right-arrow.png">
+        <div class="arrows" id="right-arrow">
+            <img id="right-arrow-image" src="./right-arrow.png">
         </div>
     </div>
     <script type="module" src="./src/script.js"></script>
