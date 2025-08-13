@@ -106,72 +106,50 @@ document.getElementById("square-minus").addEventListener("click", event => {
 
 
 document.getElementById("light-right").addEventListener("click", event => {
-    light.position.x++;
-    light.position.x++;
-    light.position.x++;
-    light.position.x++;
+    light.position.x = light.position.x+4;
 });
 document.getElementById("light-left").addEventListener("click", event => {
-    light.position.x--;
-    light.position.x--;
-    light.position.x--;
-    light.position.x--;
+    light.position.x = light.position.x-4;
 });
 
 document.getElementById("light-up").addEventListener("click", event => {
-    light.position.y++;
-    light.position.y++;
-    light.position.y++;
-    light.position.y++;
+    light.position.y = light.position.y+4;
 });
 document.getElementById("light-down").addEventListener("click", event => {
-    light.position.y--;
-    light.position.y--;
-    light.position.y--;
-    light.position.y--;
+    light.position.y = light.position.y-4;
 });
 
 document.getElementById("light-plus").addEventListener("click", event => {
-    light.position.z++;
-    light.position.z++;
-    light.position.z++;
-    light.position.z++;
+    light.position.z = light.position.z-4;
 });
 document.getElementById("light-minus").addEventListener("click", event => {
-    light.position.z--;
-    light.position.z--;
-    light.position.z--;
-    light.position.z--;
+    light.position.z = light.position.z+4;
 });
 
 
 
 
 document.getElementById("camera-right").addEventListener("click", event => {
-    camera.position.x++;
-    camera.position.x++;
+    camera.position.x=camera.position.x+2;
 });
 document.getElementById("camera-left").addEventListener("click", event => {
-    camera.position.x--;
-    camera.position.x--;
+    camera.position.x=camera.position.x-2;
+
 });
 
 document.getElementById("camera-up").addEventListener("click", event => {
-    camera.position.y++;
-    camera.position.y++;
+    camera.position.y=camera.position.y+2;
+
 });
 document.getElementById("camera-down").addEventListener("click", event => {
-    camera.position.y--;
-    camera.position.y--;
+    camera.position.y=camera.position.y-2;
 });
 
 document.getElementById("camera-plus").addEventListener("click", event => {
-    camera.position.z++;
-    camera.position.z++;
+    camera.position.z=camera.position.z+2;
 });
 document.getElementById("camera-minus").addEventListener("click", event => {
-    camera.position.z--;
-    camera.position.z--;
+    camera.position.z=camera.position.z-2;
 });
 
 document.getElementById("camera-rotate-left").addEventListener("click", event => {
