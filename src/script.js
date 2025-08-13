@@ -35,10 +35,9 @@ scene.add(camera)
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas
 })
-
+renderer.setSize(sizes.width/2, sizes.height/2)
 function animate(){
     requestAnimationFrame(animate);
-    renderer.setSize(sizes.width/2, sizes.height/2)
     renderer.render(scene, camera)
 }
 animate()
